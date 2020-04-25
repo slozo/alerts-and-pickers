@@ -54,7 +54,7 @@ final class ContactsPickerViewController: UIViewController {
     fileprivate lazy var searchController: UISearchController = {
         $0.searchResultsUpdater = self
         $0.searchBar.delegate = self
-        $0.dimsBackgroundDuringPresentation = false
+        $0.obscuresBackgroundDuringPresentation = false
         /// true if search bar in tableView header
         $0.hidesNavigationBarDuringPresentation = true
         $0.searchBar.searchBarStyle = .minimal
