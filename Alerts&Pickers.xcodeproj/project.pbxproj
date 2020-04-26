@@ -141,6 +141,7 @@
 		27B44BAC245463CB00AB3F2C /* libAlertsPickers.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAlertsPickers.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		27B44BAE245463CB00AB3F2C /* AlertsPickers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertsPickers.swift; sourceTree = "<group>"; };
 		27B44BE8245464B100AB3F2C /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		27F6E9792455688F00A65252 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = Info.plist; path = Source/Info.plist; sourceTree = SOURCE_ROOT; };
 		FA005E912015D769001EA8C6 /* Contacts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contacts.swift; sourceTree = "<group>"; };
 		FA005E932015E490001EA8C6 /* UISearchBar+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UISearchBar+Extensions.swift"; sourceTree = "<group>"; };
 		FA005E9520162BB5001EA8C6 /* Assets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assets.swift; sourceTree = "<group>"; };
@@ -336,6 +337,7 @@
 		FA3BB2CB2008B87A00E06F8F /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				27F6E9792455688F00A65252 /* Info.plist */,
 				FA826F83200E8B6200ECC926 /* Viewers */,
 				FA3BB2932008B46600E06F8F /* Extensions */,
 				FA3BB2A12008B46800E06F8F /* Pickers */,
