@@ -37,7 +37,7 @@ public final class TextViewerViewController: UIViewController {
     }
     
     
-    init(text kind: Kind) {
+    public init(text kind: Kind) {
         super.init(nibName: nil, bundle: nil)
         
         switch kind {

@@ -28,7 +28,7 @@ public final class PickerViewViewController: UIViewController {
         return $0
     }(UIPickerView())
     
-    init(values: Values, initialSelection: Index? = nil, action: Action?) {
+    public init(values: Values, initialSelection: Index? = nil, action: Action?) {
         super.init(nibName: nil, bundle: nil)
         self.values = values
         self.initialSelection = initialSelection
